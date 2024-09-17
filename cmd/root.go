@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var CLIName = "getting-started-cli"
+var CLIName = "todocli"
 
 var rootCmd = &cobra.Command{
 	Use:   CLIName,

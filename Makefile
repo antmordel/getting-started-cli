@@ -16,5 +16,5 @@ help:
 ## build: build the service executable
 .PHONY: build
 build:
-	@echo "🚀 Building getting-started-cli"
-	@go build -o getting-started-cli .
+	@echo "🚀 Building todocli"
+	@go build -o todocli .
