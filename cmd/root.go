@@ -1,10 +1,13 @@
 package cmd
 
 import (
+	"github.com/antmordel/getting-started-cli/internal"
 	"github.com/spf13/cobra"
 )
 
 var CLIName = "todocli"
+
+var db = internal.NewInMemoryTodoDB()
 
 var rootCmd = &cobra.Command{
 	Use:   CLIName,
