@@ -2,7 +2,10 @@ module github.com/antmordel/getting-started-cli
 
 go 1.21.4
 
-require github.com/spf13/cobra v1.8.1
+require (
+	github.com/charmbracelet/huh v0.6.0
+	github.com/spf13/cobra v1.8.1
+)
 
 require (
 	github.com/atotto/clipboard v0.1.4 // indirect
@@ -10,7 +13,6 @@ require (
 	github.com/catppuccin/go v0.2.0 // indirect
 	github.com/charmbracelet/bubbles v0.20.0 // indirect
 	github.com/charmbracelet/bubbletea v1.1.1 // indirect
-	github.com/charmbracelet/huh v0.6.0 // indirect
 	github.com/charmbracelet/lipgloss v0.13.0 // indirect
 	github.com/charmbracelet/x/ansi v0.3.2 // indirect
 	github.com/charmbracelet/x/exp/strings v0.0.0-20240919170804-a4978c8e603a // indirect

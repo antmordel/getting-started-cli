@@ -1,4 +1,4 @@
-package pkg
+package ui
 
 import "github.com/charmbracelet/huh"
 
