@@ -1,6 +1,7 @@
 # getting-started-cli
 
+**getting-started-cli** is a _production-ready_ CLI application that serves as a template for creating Golang CLI tools, particularly in the areas of productivity and platform engineering.
 
-## Dependencies
+It is a TODO app that focus on modularity and minimizing dependencies.
 
-- cobra (37.6k stars) - https://github.com/spf13/cobra
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/allaboutapps/go-starter/blob/master/LICENSE)
