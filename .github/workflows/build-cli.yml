@@ -1,4 +1,4 @@
-name: Build and Test
+name: Tidy, Build and Test
 
 on:
   push:
@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.21'
+
+      - uses: katexochen/go-tidy-check@v2
 
       - name: Build
         run: go build ./...

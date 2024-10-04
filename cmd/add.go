@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/antmordel/getting-started-cli/pkg"
+	"github.com/antmordel/getting-started-cli/pkg/ui"
 	"github.com/spf13/cobra"
 )
 
@@ -21,7 +21,7 @@ func init() {
 
 func addTodo(cmd *cobra.Command, args []string) {
 	if todoText == "" {
-		todoText = pkg.AskForInputBlocking("Enter the chain canonical name: ")
+		todoText = ui.AskForInputBlocking("Enter the chain canonical name: ")
 	}
 
 	db.New(todoText)
