@@ -5,3 +5,4 @@
 It is a TODO app that focus on modularity and minimizing dependencies.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/allaboutapps/go-starter/blob/master/LICENSE)
+[![Build and Test](https://github.com/antmordel/get-started-cli/actions/workflows/build-cli.yml/badge.svg)](https://antmordel/get-started-cli/actions)
